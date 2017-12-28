@@ -58,8 +58,6 @@ fn main() {
 
     let filename = &args[1];
 
-    println!("{:?}", filename);
-
     let mut f = File::open(filename).expect("file not found");
 
     let mut contents = String::new();
@@ -68,5 +66,13 @@ fn main() {
 
     let parsed_cson: CsonInput = serde_json::from_str(&contents).unwrap();
 
+
+    println!("Parsed Bytecode: ");
+
     println!("{:?}", parsed_cson);
+
+    println!("Result: ");
+
+
+
 }
