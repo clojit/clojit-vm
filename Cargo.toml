@@ -1,6 +1,8 @@
 [package]
-name = "clojit-vm"
-version = "0.1"
+name = "clojit_vm"
+version = "0.0.1"
 authors = ["Niklaus Zbinden <niklaus.zbinden@gmail.com>", "Sebastian Wicki <gandro@gmx.net>"]
+
+[workspace]
 
 [dependencies]

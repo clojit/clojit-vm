@@ -1,0 +1,1 @@
+{"CSTR":["global2","global"],"CFLOAT":[],"CKEY":[],"CINT":[],"types":[],"vtable":{},"bytecode":[{"op":"CSHORT","a":0,"d":5},{"op":"NSSET","a":0,"d":0},{"op":"CSHORT","a":0,"d":84},{"op":"NSSET","a":0,"d":1},{"op":"NSGET","a":0,"d":0},{"op":"NSGET","a":1,"d":1},{"op":"ADDVV","a":0,"b":0,"c":1},{"op":"EXIT","a":0,"d":null}]}

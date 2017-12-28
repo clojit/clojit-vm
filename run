@@ -1,0 +1,11 @@
+#/bin/bash
+
+
+java -jar clojit-0.1.0-SNAPSHOT-standalone.jar $1
+
+x=$1
+y=${x%.clj}
+z=.cson
+
+echo $y$z
+cargo run $y$z

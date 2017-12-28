@@ -1,0 +1,1 @@
+{"CSTR":[],"CFLOAT":[],"CKEY":[],"CINT":[],"types":[],"vtable":{},"bytecode":[{"op":"CSHORT","a":0,"d":2},{"op":"JUMPF","a":0,"d":3},{"op":"CSHORT","a":0,"d":1},{"op":"JUMP","a":null,"d":2},{"op":"CSHORT","a":0,"d":0},{"op":"EXIT","a":0,"d":null}]}
