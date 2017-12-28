@@ -1,11 +1,14 @@
 #/bin/bash
 
 
-java -jar clojit-0.1.0-SNAPSHOT-standalone.jar $1
-
 x=$1
 y=${x%.clj}
 z=.cson
 
-echo $y$z
+file=$y$z
+
+if [ ! -f "$file" ]; then
+	java -jar clojit-0.1.0-SNAPSHOT-standalone.jar $1
+fi
+
 cargo run $y$z

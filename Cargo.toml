@@ -6,3 +6,7 @@ authors = ["Niklaus Zbinden <niklaus.zbinden@gmail.com>", "Sebastian Wicki <gand
 [workspace]
 
 [dependencies]
+
+serde_json = "1.0.8"
+serde = "1.0.26"
+serde_derive = "1.0.26"
